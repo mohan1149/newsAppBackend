@@ -28,10 +28,17 @@ DB_PASSWORD=password
 
 ## Docker Set up
 Replace <your_app_key>, <your_db_name>, <your_db_username>, <your_db_password>, and <your_db_root_password> with the actual values for your application and database.  
+
+    Open a terminal in the same directory as the Dockerfile.  
+    Build the Docker image by running the command `docker build -t laravel-app .`, This will create an image with the tag laravel-app.   
+    After the build is complete, you can run a container   
+
+
 Open a terminal in the same directory as the Docker Compose file and run the command `docker-compose up -d`  to start the Laravel application and MySQL database containers.  
 
 Make sure you have Docker and Docker Compose installed on your machine before running the above commands.  
 
 For more details reach me at mohan.velegacherla@gmail.com
+
 
 
