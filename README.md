@@ -6,7 +6,7 @@ easy-to-read format
 ## How to setup
 
 Clone the repository from "https://github.com/mohan1149/newsAppBackend.git"   
-`git clone https://github.com/mohan1149/newsAppBackend.git`
+`git clone https://github.com/mohan1149/newsAppBackend.git`  
 `cd newsAppBackend`   
 `composer install`  
 `cp env.example .env`  
