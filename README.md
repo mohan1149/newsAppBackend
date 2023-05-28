@@ -5,10 +5,10 @@ easy-to-read format
 
 ## How to setup
 
-Clone the repository from "https://github.com/mohan1149/newsAppBackend.git"
-$cd newsAppBackend
-$composer install
-cp env.example .env
+Clone the repository from "https://github.com/mohan1149/newsAppBackend.git"  
+$cd newsAppBackend  
+$composer install  
+cp env.example .env  
 
 ## Set up Database
 Update following as per your configuration  
@@ -24,6 +24,7 @@ $php artisan migrate
 
 ## Start Application 
 $php artisan serve
-
+## Docker Set up
+Replace <your_app_key>, <your_db_name>, <your_db_username>, <your_db_password>, and <your_db_root_password> with the actual values for your application and database.
 
 
