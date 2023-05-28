@@ -84,7 +84,7 @@ class APIController extends Controller
      * Route:news
      * Route Method:GET
      */
-    public function getNewsFromService1(Request $request){
+    public function getNewsFromServices(Request $request){
         try {
             //serch keyword
             $query = $request['query'];
